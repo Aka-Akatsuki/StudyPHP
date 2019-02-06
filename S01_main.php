@@ -1,3 +1,6 @@
+<style>
+
+</style>
 
 <?php
   $beginner = "<h2> 初心者のための";
