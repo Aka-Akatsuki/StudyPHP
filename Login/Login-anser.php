@@ -46,7 +46,7 @@
 <input type="button" onclick="location.href='./Login.php'" name="logintop" value=" 戻 る ">
 
 <?php
-	include "../myfunc/commonfunction.php";
+	include "../myfunc-2/commonfunction.php";
 
 	if (existId($_POST["id"]) == 1) {
 	   //$upath = "location.href=\"'./userinfo.php'";
