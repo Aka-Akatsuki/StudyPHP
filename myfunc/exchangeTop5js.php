@@ -1,8 +1,8 @@
 <style>
     textarea{
         font-size: 20;
-        width: 30%;
-        height: 200px;
+        width: 70%;
+        height: 70%;
 
     }
 </style>
@@ -19,7 +19,7 @@
   
 $aftCode = $_POST["exsrc"];
 $aftCode = str_replace("int ","var ",$aftCode);
-$aftCode = str_replace("size( ","CreateCanvas( ",$aftCode);
+$aftCode = str_replace("size(","createCanvas(",$aftCode);
 $aftCode = str_replace("void ","function ",$aftCode);
  
 echo "<textarea>", $aftCode , "</textarea>" ;

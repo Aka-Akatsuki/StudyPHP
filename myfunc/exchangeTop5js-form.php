@@ -1,8 +1,8 @@
 <style>
     textarea{
         font-size: 20;
-        width: 30%;
-        height: 200px;
+        width: 70%;
+        height: 70%;
 
     }
 </style>
